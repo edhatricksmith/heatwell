@@ -20,6 +20,15 @@
     <div class="content-column unify">
             
       <h1>Heatwell Instruction Videos</h1>
+      
+      <h3><a name="th232"></a>Heatwell Thermostat Aube TH232</h3>
+      <p>Programming instructions for the Aube TH232 thermostat provided by Heatwell Ltd</p>
+      <div class="video-container">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/y5aYj896_Ok?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>     
+
+      <div class="line-break"></div>
+      
       <h3><a name="rde100"></a>Heatwell Thermostat Programming Video for Siemens RDE100</h3>
       <p>Learn how to program the Siemens RDE100 thermostat.</p>
       <div class="video-container">
