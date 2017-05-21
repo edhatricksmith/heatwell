@@ -1,16 +1,26 @@
 .content {
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     background-color: $color-body-xxlight;
+
+    @media only screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .section {
-    margin-bottom: 56px;
+    margin-bottom: 36px;
+
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 56px;
+    }
 }
 
 .responsive-img {
     width: 100%;
     height: auto;
+    margin-bottom: 1rem;
 }
 
 .img-border {

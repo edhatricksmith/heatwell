@@ -1,6 +1,6 @@
 body {
-  background-color: $color-body-dark-3;
-  font-size: 18px;
+  background-color: $color-body-dark-1;
+  font-size: $font-size;
   font-family: $font-body;
   font-weight: $font-weight;
   color: $color-body-dark-9;
@@ -16,15 +16,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-bottom: .4em;
-  font-size: 1.953em;
+  font-size: $font-size-xxlg / 1.15;
+
+  @media only screen and (min-width: 768px) {
+    font-size: $font-size-xxlg;
+  }
 }
 
 h2 {
-  font-size: 1.563em;
+  font-size: $font-size-xlg / 1.15;
+
+  @media only screen and (min-width: 768px) {
+    font-size: $font-size-xlg;
+  }
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: $font-size-lg / 1.15;
+
+  @media only screen and (min-width: 768px) {
+    font-size: $font-size-lg;
+  }
 }
 
 p {

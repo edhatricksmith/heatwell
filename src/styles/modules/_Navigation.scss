@@ -1,10 +1,6 @@
 // Navigation Variables
 $content-width: $site-width;
-$breakpoint: 48em;
-$nav-height: 50px;
 $nav-background: $color-body-dark-9;
-$nav-font-color: $color-body-dark-9;
-$link-hover-color: $color-body-dark-9;
 
 // Outer navigation wrapper
 .Navigation {
@@ -21,7 +17,6 @@ $link-hover-color: $color-body-dark-9;
   }
 }
 
-// @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -73,12 +68,12 @@ $link-hover-color: $color-body-dark-9;
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #dddddd;
-  font-weight: 700;
+  color: $color-body-dark-1;
+  font-weight: $font-weight-bold;
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: $color-body-xxlight;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -111,6 +106,7 @@ $link-hover-color: $color-body-dark-9;
 #cssmenu ul ul {
   position: absolute;
   left: -9999px;
+  z-index: 1;
 }
 #cssmenu.align-right ul ul {
   text-align: right;
@@ -143,8 +139,8 @@ $link-hover-color: $color-body-dark-9;
   width: 170px;
   font-size: 12px;
   text-decoration: none;
-  color: #dddddd;
-  font-weight: 400;
+  color: $color-body-dark-1;
+  font-weight: $font-weight;
   background: #333333;
 }
 #cssmenu ul ul li:last-child > a,
@@ -153,7 +149,7 @@ $link-hover-color: $color-body-dark-9;
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #ffffff;
+  color: $color-body-xxlight;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -210,6 +206,7 @@ $link-hover-color: $color-body-dark-9;
 #cssmenu.small-screen ul ul li a {
   width: 100%;
   border-bottom: 0;
+  text-align: center;
 }
 #cssmenu.small-screen > ul > li {
   float: none;
@@ -221,12 +218,12 @@ $link-hover-color: $color-body-dark-9;
   padding-left: 35px;
 }
 #cssmenu.small-screen ul ul li a {
-  color: #dddddd;
+  color: $color-body-dark-1;
   background: none;
 }
 #cssmenu.small-screen ul ul li:hover > a,
 #cssmenu.small-screen ul ul li.active > a {
-  color: #ffffff;
+  color: $color-body-xxlight;
 }
 #cssmenu.small-screen ul ul,
 #cssmenu.small-screen ul ul ul,
@@ -246,11 +243,11 @@ $link-hover-color: $color-body-dark-9;
 #cssmenu.small-screen #menu-button {
   display: block;
   padding: 17px;
-  color: #dddddd;
+  color: $color-body-dark-1;
   cursor: pointer;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
 }
 #cssmenu.small-screen #menu-button:after {
   position: absolute;

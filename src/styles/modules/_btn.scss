@@ -1,9 +1,12 @@
 .btn {
   display: inline-block;
   background: $color-secondary-xlight;
-  padding: 11px 22px;
-  border-radius: 4px;
+  padding: 12px 22px;
+  border-radius: 3px;
   border: 1px solid $color-secondary-light;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-bold;
+
   color: $color-secondary;
   text-decoration: none;
   transition: background-color .15s ease, color .15s ease, border-color .15s ease;
