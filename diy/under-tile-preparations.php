@@ -5,17 +5,12 @@
 <title>Heatwell - Under Tile Preparations</title>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link type="text/css" rel="stylesheet" href="../css/nav-styles.css" />
-<link type="text/css" rel="stylesheet" href="../css/reset.css" />
-<link type="text/css" rel="stylesheet" href="../css/primary-styles.css" />
-<link rel="shortcut icon" href="../favicon.ico">
 
 <?php include("../header.php"); ?>
 
 <article>
   <section>
-    
+
     <div class="content-column unify">
       <h1>Under Tile Preparations</h1>
       <p>Under tile heating is a quick and easy application. Most installations have the first stage completed within a day. There are a few preparation procedures that need to be in place to ensure a smooth application of our product. Under tile heating is laid closer to the end of your building process just before tiling. For example in bathrooms the under tile heating is installed once the floor preparations, jibing, waterproofing, pre-wire and fixtures and fittings are installed or marked out(for kitchens we prefer the cabinetry to be in place).</p>
@@ -23,16 +18,16 @@
       <h2>Work required to be done by other trades for Under Tile Heating:</h2>
       <p>We require the following work to be carried out by other trades to ensure the heating is installed and operates correctly.</p>
       <div class="line-break"></div>
-      
+
       <h3>Builders Work</h3>
       <h4>Wooden Floors:</h4>
       <p>These should be made water tight or covered with a layer of tile and slate underlay. The floor is to be clean and free of any cracks, holes or sharp protrusions. If you decide to lay the tiles straight on to the particle board it has to be sanded clean.
 </p>
       <h4>Concrete Floors:</h4>
-      <p>The floor is to be clean, level and free of any cracks, holes or sharp protrusions.</p> 
+      <p>The floor is to be clean, level and free of any cracks, holes or sharp protrusions.</p>
       <h4>Fixtures & Fittings:</h4>
       <p>All fixtures and fittings are to be marked out or installed before the heating installation. If floor mounted door stops are to be used please mark out on the floor to avoid damage to the heating.</p>
-      <div class="line-break"></div> 
+      <div class="line-break"></div>
       <h3>Electrical Work</h3>
       <p><span class="bold">This is taken to include but not limited to:</span></p>
       <p>Running all the circuit wiring for each heating zone. Please note that any loads over 1000 watts will need a relay and a control circuit back to the switch board. The electrician will have to connect the power to the thermostat(s) once they have been fitted by Heatwell Ltd.</p>
@@ -59,7 +54,7 @@
       </ol>
       <img class="responsive shadow photo380" src="../images/wiring_diagram.gif" alt="Wiring Diagram">
     </div>
-    
+
     <aside>
       <div class="guarantee-container">
         <h3 class="guarantee-title">10 Year Guarantee</h3>
@@ -75,14 +70,5 @@
 
 <?php include("../footer.php"); ?>
 
-<script src="../js/jquery.js"></script>
-<script src="../js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 </body>
 </html>

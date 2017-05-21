@@ -5,17 +5,12 @@
 <title>Heatwell - About Heatwell</title>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link type="text/css" rel="stylesheet" href="css/nav-styles.css" />
-<link type="text/css" rel="stylesheet" href="css/reset.css" />
-<link type="text/css" rel="stylesheet" href="css/primary-styles.css" />
-<link rel="shortcut icon" href="favicon.ico">
 
 <?php include("header.php"); ?>
 
 <article>
   <section>
-    
+
     <div class="content-column unify">
       <h1>About Heatwell Ltd.</h1>
       <p class="bold">Heatwell Ltd is a leading under floor heating specialist with over 30 years experience in the supply and install of Radiant under tile, under carpet and in-concrete electric heating.</p>
@@ -24,7 +19,7 @@
       <p>Radiant heat is based on the same method of the sun heating the earth. Radiant heat energy travels similar to radio waves. When this energy hits a solid object it absorbs the energy and heats that object. This provides a natural form of heat that will not cause a stuffy atmosphere.</p>
       <p>Heating all the objects in your room will limit your body's tendency to give up it's heat. Once the solid objects in the room are warm the air is then heated and the room will no longer be cold.</p>
     </div>
-    
+
     <aside>
       <h3>Heatwell Ltd.</h3>
       <p>PO Box 41 072,</br>
@@ -41,14 +36,5 @@
 
 <?php include("footer.php"); ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 </body>
 </html>

@@ -3,24 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>Heatwell - Floor Heating Options</title>
+<?php $thisPage="heating-options"; ?>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link type="text/css" rel="stylesheet" href="../css/nav-styles.css" />
-<link type="text/css" rel="stylesheet" href="../css/reset.css" />
-<link type="text/css" rel="stylesheet" href="../css/primary-styles.css" />
-<link rel="shortcut icon" href="../favicon.ico">
-<?php $thisPage="heating-options"; ?>
 
 <?php include("../header.php"); ?>
 
 <article>
   <section>
-    
+
     <div class="content-column unify">
       <h1>Under Floor Heating Options</h1>
       <h3>We can warm these floor types:</h3>
-      
+
       <div class="line-break"></div>
       <h4>Under Tile Heating</h4>
       <img src="../images/product_tiles.gif" width="102" height="67" alt="tile heating" class="product-options">
@@ -31,7 +26,7 @@
       <p>Just think warm tiles in your bathroom, kitchen, dining room or where ever you plan to use tiles in your home or development.</p>
       <div class="button-margin"><a class="button" href="under-tile-heating.php">Learn more here</a></div>
       <div class="line-break"></div>
-      
+
       <h4>Under Carpet Heating</h4>
       <img src="../images/product_new_carpet.gif" width="102" height="67" alt="new carpet" class="product-options">
       <img src="../images/product_existing_carpet.gif" width="107" height="67" alt="existing carpet" class="product-options">
@@ -39,7 +34,7 @@
       <p>Perfect for your family areas and bedrooms. Quickly laid floor heating for both new and existing homes.</p>
       <div class="button-margin"><a class="button" href="under-carpet-heating.php">Learn more here</a></div>
       <div class="line-break"></div>
-      
+
       <h4>In Concrete Heating</h4>
       <img src="../images/product_new_homes.gif" width="104" height="67" alt="new homes" class="product-options">
       <img src="../images/product_extensions.gif" width="104" height="67" alt="extensions" class="product-options">
@@ -64,14 +59,5 @@
 
 <?php include("../footer.php"); ?>
 
-<script src="../js/jquery.js"></script>
-<script src="../js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 </body>
 </html>

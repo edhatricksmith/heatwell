@@ -1,0 +1,34 @@
+body {
+  background-color: $color-body-dark-3;
+  font-size: 18px;
+  font-family: $font-body;
+  font-weight: $font-weight;
+  color: $color-body-dark-9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .8em;
+  line-height: 1.1em;
+  font-family: $font-heading;
+  font-weight: $font-weight-heading;
+}
+
+h1 {
+  margin-bottom: .4em;
+  font-size: 1.953em;
+}
+
+h2 {
+  font-size: 1.563em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}

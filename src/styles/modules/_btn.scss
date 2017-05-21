@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  background: $color-secondary-xlight;
+  padding: 11px 22px;
+  border-radius: 4px;
+  border: 1px solid $color-secondary-light;
+  color: $color-secondary;
+  text-decoration: none;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+
+  &:hover {
+    background: $color-secondary;
+    border: 1px solid $color-secondary;
+    color: $color-body-xxlight;
+  }
+
+  &--secondary {
+    background: $color-body-dark-1;
+    border: 1px solid $color-body-dark-6;
+    color: $color-body-dark-6;
+
+    &:hover {
+      background-color: $color-body-dark-6;
+      border: 1px solid $color-body-dark-6;
+    }
+  }
+}

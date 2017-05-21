@@ -35,24 +35,18 @@ if(isset($_POST['submitted']))
 <head>
 <meta charset="utf-8">
 <title>Heatwell - Contact Us</title>
+<?php $thisPage="contact-us"; ?>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link type="text/css" rel="stylesheet" href="css/nav-styles.css" />
-<link type="text/css" rel="stylesheet" href="css/reset.css" />
-<link type="text/css" rel="stylesheet" href="css/primary-styles.css" />
-<link type="text/css" rel="stylesheet" href="css/contact.css" />
-<link rel="shortcut icon" href="favicon.ico">
-<?php $thisPage="contact-us"; ?>
 
 <?php include("header.php"); ?>
 
 <article>
   <section>
-    
+
     <div class="content-column">
-      <h1>Contact Us</h1>    
-      
+      <h1>Contact Us</h1>
+
       <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
 
 <fieldset >
@@ -96,10 +90,10 @@ if(isset($_POST['submitted']))
 </div>
 
 </fieldset>
-</form>  
-      
+</form>
+
     </div>
-    
+
     <aside>
       <h3>Heatwell Ltd.</h3>
       <p>PO Box 41 072,</br>
@@ -108,7 +102,7 @@ if(isset($_POST['submitted']))
       </br>New Zealand</p>
       <h4>Ph: <span class="dark"><a href="tel:098493919">(09) 849 3919</a></span><br>Fx: <span class="dark">64 9 849 3621</span></br>Mo: <span class="dark">021 926 533</span></h4>
       <img style="margin-top:10px;" src="images/QR.gif" width="120" height="120" alt="Heatwell Contacst QR Code"><br>
-      <p>Scan this QR code with your phone to save our contact details as an meCard.</p> 
+      <p>Scan this QR code with your phone to save our contact details as an meCard.</p>
       <h4>Company Information</h4>
        <p>Find out more about Heatwell:</p>
        <div class="button-margin"><a class="button" href="about-heatwell.php">About Heatwell</a></div>
@@ -119,15 +113,6 @@ if(isset($_POST['submitted']))
 
 <?php include("footer.php"); ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 <script type='text/javascript'>
 // <![CDATA[
 

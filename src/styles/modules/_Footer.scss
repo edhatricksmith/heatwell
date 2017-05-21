@@ -1,0 +1,18 @@
+.Footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: $color-body-dark-6;
+
+    &-link {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: .5rem;
+        color: $color-body-dark-6;
+    }
+
+    &-copyright {
+        margin-top: .5rem;
+        font-size: 14px;
+    }
+}

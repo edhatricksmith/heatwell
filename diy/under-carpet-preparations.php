@@ -5,32 +5,27 @@
 <title>Heatwell - Under Carpet Preparations</title>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link type="text/css" rel="stylesheet" href="../css/nav-styles.css" />
-<link type="text/css" rel="stylesheet" href="../css/reset.css" />
-<link type="text/css" rel="stylesheet" href="../css/primary-styles.css" />
-<link rel="shortcut icon" href="../favicon.ico">
 
 <?php include("../header.php"); ?>
 
 <article>
   <section>
-    
+
     <div class="content-column unify">
       <h1>Under Carpet Preparations</h1>
       <p>Under carpet heating can be laid either once the carpet and underlay have been brought up in an existing home or before the carpet laying in a new development. We are happy to liaise with the carpet layers so our schedules can meet to cut down on any time delays. Heatwell under carpet heating is covered with a thin layer of self-leveling screed requiring over night to dry. There are a few preparation procedures to take note regarding floor preparation and pre-wiring.</p>
       <h2>Work required to be done by other trades for Under Carpet Heating:</h2>
       <p>We require the following work to be carried out by other trades to ensure the heating is installed and operates correctly.</p>
       <div class="line-break"></div>
-      
+
       <h3>Builders Work</h3>
       <h4>Wooden Floors:</h4>
       <p>These should be made water tight or covered with a layer of tile and slate underlay. The floor is to be clean and free of any cracks, holes or sharp protrusions.</p>
       <h4>Concrete Floors:</h4>
-      <p>The floor is to be clean, level and free of any cracks, holes or sharp protrusions.</p> 
+      <p>The floor is to be clean, level and free of any cracks, holes or sharp protrusions.</p>
       <h4>Fixtures & Fittings:</h4>
       <p>All fixtures and fittings are to be marked out or installed before the heating installation. If floor mounted door stops are to be used please mark out on the floor to avoid damage to the heating.</p>
-      <div class="line-break"></div> 
+      <div class="line-break"></div>
       <h3>Electrical Work</h3>
       <p><span class="bold">This is taken to include but not limited to:</span></p>
       <p>Running all the circuit wiring for each heating zone. Please note that any loads over 1000 watts will need a relay and a control circuit back to the switch board. The electrician will have to connect the power to the thermostat(s) once they have been fitted by Heatwell Ltd.</p>
@@ -55,7 +50,7 @@
       </ol>
       <img class="responsive shadow photo380" src="../images/wiring_diagram.gif" alt="Wiring Diagram">
     </div>
-    
+
     <aside>
       <div class="guarantee-container">
         <h3 class="guarantee-title">10 Year Guarantee</h3>
@@ -71,14 +66,5 @@
 
 <?php include("../footer.php"); ?>
 
-<script src="../js/jquery.js"></script>
-<script src="../js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 </body>
 </html>
