@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>Heatwell - Under floor heating specialists</title>
-<?php $thisPage="home"; ?>
 <meta name="description" content="Under floor electric heating specialists, premium heating without cutting corners to Auckland for 35 years. DIY kits, all fault location & repairs, thermostat repairs, element repairs, Siemens." />
 <meta name="keywords" content="Heatwell Ltd. Floor heating specialists, under floor, under tile, under concrete, heated tiles, heated carpet, heated concrete, auckland, experts, tiles, carpet, flooring, wood, under floor heating systems, do it yourself, DIY" />
 

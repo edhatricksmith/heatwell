@@ -89,14 +89,6 @@
 
 /* Shared Elements */
 
-aside {
-  display: block;
-  float: right;
-  width: 35%;
-  padding: 2% 2%;
-  background: #f7f7f7;
-  margin: 30px 0;
-}
 .guarantee-container {
   width: 100%;
   min-height: 123px;
@@ -151,18 +143,6 @@ a img {
 img.product-options {
   float: left;
   margin: 0 14px 18px 0;
-}
-
-/* Testimonials */
-.testimonaial-container {
-  width: 100%;
-  padding: 2% 48px;
-  background-image: url(../images/quote_open.png), url(../images/quote_close.png);
-  background-position: top left, bottom right;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-  background-color: #f7f7f7;
-  border: 8px solid #f7f7f7;
 }
 
 /* Typography */

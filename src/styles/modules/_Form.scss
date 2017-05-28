@@ -1,0 +1,85 @@
+/*
+Contact Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+All the style elements use form id selector(notice the #contactus). So, including this
+stylesheet does not affect the other elements at all!
+*/
+
+.Form {
+  fieldset {
+    border: 0;
+    padding: 0;
+  }
+
+  label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+      outline: none;
+      box-sizing: border-box;
+      width: 100%;
+      background: $color-body-xxlight;
+      margin-bottom: 1.5rem;
+      border: 1px solid $color-body-dark-3;
+      padding: 12px 8px;
+      font-size: 1rem;
+      color: $color-body-dark-9;
+
+      @media only screen and (max-width: 48em) {
+        margin-bottom: 2rem;
+      }
+  }
+
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus,
+  select:focus {
+      box-shadow: 0 0 5px $color-primary-light;
+      border: 1px solid $color-primary-light;
+  }
+
+  input[type="file"] {
+    margin-bottom: 1.5rem;
+
+    @media only screen and (max-width: 48em) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-errorsummary {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.3rem;
+    color: $color-error;
+  }
+}
+
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip {
+  display: none;
+}
+#fg_crdiv {
+  font-size: 0.3em;
+  opacity: .2;
+}
+#fg_crdiv p {
+  display: none;
+}

@@ -8,28 +8,27 @@
 
 <?php include("../header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column unify">
-      <h1>Under Tile Heating</h1>
-      <img class="responsive shadow photo-right photo300" src="../images/under_tile_photo_02.jpg" alt="under tile example">
-      <p>Under tile heating is a very popular, safe and effective heating solution for your home or development. The Under tile heating element is laid directly under the tiles and covered with a self-levelling screed and fibreglass mesh layer which leaves a flat surface to start tiling on.</p>
-      <p>Heatwell will supply and install all the components for the under tile heating element through to the final connection of the thermostat after the tiles are laid. Our under tile heating provides an even spread of heat throughout the tiled floor with no cold spots. Installing 150 watts per m² creates a quick heating reaction time. The only part of the Under tile heating you will see is the thermostat (and even that can be hidden away in a cupboard if an automatic type is used).</p>
-      <p>Heatwell has 18 different sizes of Under tile heating cables available ranging from 150 watts to 3000 watts to fit any room size. Our cable comes as a loose wire that has the flexibility to be laid around the toilet bowl, door stop or anywhere you may put your feet. The cable is multi-stranded which provides more strength, durability and flexibility.</p>
-      <img class="responsive shadow photo-full" src="../images/under_tile_photo_01.jpg" alt="under tile example">
-      <div class="line-break"></div>
-    </div>
-    <aside>
-      <div class="guarantee-container">
-        <h3 class="guarantee-title">10 Year Guarantee</h3>
-        <p class="guarantee-copy">We provide a 10 year gurantee on all of our products and services - excluding thermostat(s)</p>
+<article class="content">
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Under Tile Heating</h1>
       </div>
-      <div class="line-break"></div>
-      <p>If you would like to learn more about any of our products or services, or to request a free quote feel free to get in touch with us here:</p>
-      <div class="button-margin"><a class="button" href="/contacts.php">Contact Us</a></div>
-    </aside>
-    <div class="clear-both"></div>
+    </div>
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <img class="contentImg contentImg-right" src="/images/under_tile_photo_02.jpg" alt="under tile example">
+        <p>Under tile heating is a very popular, safe and effective heating solution for your home or development. The Under tile heating element is laid directly under the tiles and covered with a self-levelling screed and fibreglass mesh layer which leaves a flat surface to start tiling on.</p>
+        <p>Heatwell will supply and install all the components for the under tile heating element through to the final connection of the thermostat after the tiles are laid. Our under tile heating provides an even spread of heat throughout the tiled floor with no cold spots. Installing 150 watts per m² creates a quick heating reaction time. The only part of the Under tile heating you will see is the thermostat (and even that can be hidden away in a cupboard if an automatic type is used).</p>
+        <p>Heatwell has 18 different sizes of Under tile heating cables available ranging from 150 watts to 3000 watts to fit any room size. Our cable comes as a loose wire that has the flexibility to be laid around the toilet bowl, door stop or anywhere you may put your feet. The cable is multi-stranded which provides more strength, durability and flexibility.</p>
+        <img class="contentImg contentImg-left" src="/images/under_tile_photo_01.jpg" alt="under tile example">
+      </div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout Callout--dark">
+          <?php include("../guarantee-partial.php"); ?>
+        </div>
+      </aside>
+    </div>
   </section>
 </article>
 

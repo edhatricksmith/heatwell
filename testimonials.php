@@ -8,35 +8,33 @@
 
 <?php include("header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column">
-      <h1>Testimonials</h1>
-      <div class="testimonaial-container">
-        <p>Auckland Wide Electrical is proud to work closely with Heatwell on under floor heating installations throughout Auckland. We recommend Heatwell underfloor heating systems to our customers and find Heatwell easy and efficient to work with.</p>
-        <p><a class="text-link" href="http://www.awe.co.nz/" target="_blank" >Auckland Wide Electrical</a></p>
+<article class="content">
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Testimonials</h1>
       </div>
-      <div class="testimonaial-container">
-        <p>When considering home heating there are many options and opinions. What most clients would really appreciate is some honest advice about what best suits their needs. We have found that Heatwell not only have the expertise to offer this, they have the products and service also.</p>
-        <p><a class="text-link" href="http://www.garlandbuilders.co.nz/" target="_blank">Garland Builders Ltd</a></p>
-      </div>
-      <div class="testimonaial-container">
-        <p>Elegant Bathroom Design has selected Heatwell as its preferred supplier of underfloor heating systems. Heatwells ability to supply high quality materials and provide a reliable service has contributed to the recognition of Elegant Bathroom Design as New Zealands leading bathroom design, supply and installation company.</p>
-      </div>
-
     </div>
-
-    <aside>
-      <div class="guarantee-container">
-        <h3 class="guarantee-title">10 Year Guarantee</h3>
-        <p class="guarantee-copy">We provide a 10 year gurantee on all of our products and services - excluding thermostat(s)</p>
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <div class="Testimonial section-sm">
+          <p>Auckland Wide Electrical is proud to work closely with Heatwell on under floor heating installations throughout Auckland. We recommend Heatwell underfloor heating systems to our customers and find Heatwell easy and efficient to work with.</p>
+          <p><a class="btn btn--secondary" href="http://www.awe.co.nz/" target="_blank" >Auckland Wide Electrical</a></p>
+        </div>
+        <div class="Testimonial section-sm">
+          <p>When considering home heating there are many options and opinions. What most clients would really appreciate is some honest advice about what best suits their needs. We have found that Heatwell not only have the expertise to offer this, they have the products and service also.</p>
+          <p><a class="btn btn--secondary" href="http://www.garlandbuilders.co.nz/" target="_blank">Garland Builders Ltd</a></p>
+        </div>
+        <div class="Testimonial section-sm">
+          <p>Elegant Bathroom Design has selected Heatwell as its preferred supplier of underfloor heating systems. Heatwells ability to supply high quality materials and provide a reliable service has contributed to the recognition of Elegant Bathroom Design as New Zealands leading bathroom design, supply and installation company.</p>
+        </div>
       </div>
-      <div class="line-break"></div>
-      <p>If you would like to learn more about any of our products or services, or to request a free quote feel free to get in touch with us here:</p>
-      <div class="button-margin"><a class="button" href="/contacts.php">Contact Us</a></div>
-    </aside>
-    <div class="clear-both"></div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout Callout--dark">
+          <?php include("guarantee-partial.php"); ?>
+        </div>
+      </aside>
+    </div>
   </section>
 </article>
 

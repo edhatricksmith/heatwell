@@ -41,73 +41,51 @@ if(isset($_POST['submitted']))
 
 <?php include("header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column">
-      <h1>Contact Us</h1>
-
-      <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
-
-<fieldset >
-
-<input type='hidden' name='submitted' id='submitted' value='1'/>
-<input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
-<input type='text'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
-
-<div class='short_explanation'>* required fields</div>
-
-<div><span class='error'><?php echo $formproc->GetErrorMessage(); ?></span></div>
-<div class='container'>
-    <label for='name' >Your Full Name:* </label><br/>
-    <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" /><br/>
-    <span id='contactus_name_errorloc' class='error'></span>
-</div>
-<div class='container'>
-    <label for='email' >Email Address:*</label><br/>
-    <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" /><br/>
-    <span id='contactus_email_errorloc' class='error'></span>
-</div>
-<div class='container'>
-    <label for='phone' >Phone:</label><br/>
-    <input type='text' name='phone' id='phone' value='<?php echo $formproc->SafeDisplay('phone') ?>' maxlength="50" /><br/>
-    <span id='contactus_email_errorloc' class='error'></span>
-</div>
-<div class='container'>
-    <label for='message' >Message:</label><br/>
-    <span id='contactus_message_errorloc' class='error'></span>
-    <textarea rows="10"  name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
-</div>
-<div class='container'>
-    <label for='photo' >Upload your floor plan:</label><br/>
-    <input type="file" name='plan' id='plan' /><br/>
-    <span id='contactus_photo_errorloc' class='error'></span>
-</div>
-
-
-<div class='container'>
-    <input type='submit' name='Submit' value='Submit' />
-</div>
-
-</fieldset>
-</form>
-
+<article class="content">
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Contact Us</h1>
+      </div>
     </div>
-
-    <aside>
-      <h3>Heatwell Ltd.</h3>
-      <p>PO Box 41 072,</br>
-      St Lukes,</br>
-      Auckland 1346
-      </br>New Zealand</p>
-      <h4>Ph: <span class="dark"><a href="tel:098493919">(09) 849 3919</a></span><br>Fx: <span class="dark">64 9 849 3621</span></br>Mo: <span class="dark">021 926 533</span></h4>
-      <img style="margin-top:10px;" src="images/QR.gif" width="120" height="120" alt="Heatwell Contacst QR Code"><br>
-      <p>Scan this QR code with your phone to save our contact details as an meCard.</p>
-      <h4>Company Information</h4>
-       <p>Find out more about Heatwell:</p>
-       <div class="button-margin"><a class="button" href="about-heatwell.php">About Heatwell</a></div>
-    </aside>
-    <div class="clear-both"></div>
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <form class="Form" id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' enctype="multipart/form-data" accept-charset='UTF-8'>
+          <fieldset>
+            <input type='hidden' name='submitted' id='submitted' value='1'/>
+            <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
+            <input type='text'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
+            <small>* required fields</small>
+            <div class='Form-errorsummary error'><?php echo $formproc->GetErrorMessage(); ?></div>
+            <label for='name' >Your Full Name:* </label>
+            <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" />
+            <span id='contactus_name_errorloc' class='error'></span>
+            <label for='email' >Email Address:*</label>
+            <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" />
+            <span id='contactus_email_errorloc' class='error'></span>
+            <label for='phone' >Phone:</label>
+            <input type='text' name='phone' id='phone' value='<?php echo $formproc->SafeDisplay('phone') ?>' maxlength="50" />
+            <span id='contactus_email_errorloc' class='error'></span>
+            <label for='message' >Message:</label>
+            <span id='contactus_message_errorloc' class='error'></span>
+            <textarea rows="10"  name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
+            <label for='photo' >Upload your floor plan:</label>
+            <input type="file" name='plan' id='plan' />
+            <span id='contactus_photo_errorloc' class='error'></span>
+            <div>
+              <input class="btn" type='submit' name='Submit' value='Send message' />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout">
+          <h3>Heatwell Ltd.</h3>
+          <?php include("contactcard-partial.php"); ?>
+          <h3>Company Information</h3>
+          <p><a href="/about-heatwell.php">Find out more about Heatwell</a></p>
+        </div>
+      </aside>
   </section>
 </article>
 
@@ -115,18 +93,13 @@ if(isset($_POST['submitted']))
 
 <script type='text/javascript'>
 // <![CDATA[
-
     var frmvalidator  = new Validator("contactus");
     frmvalidator.EnableOnPageErrorDisplay();
     frmvalidator.EnableMsgsTogether();
     frmvalidator.addValidation("name","req","Please provide your name");
-
     frmvalidator.addValidation("email","req","Please provide your email address");
-
     frmvalidator.addValidation("email","email","Please provide a valid email address");
-
     frmvalidator.addValidation("message","maxlen=2048","The message is too long!(more than 2KB!)");
-
     frmvalidator.addValidation("plan","file_extn=jpg;jpeg;gif;png;bmp;doc;docx;pdf;txt","Upload supported formats only. Supported file types are: jpg,gif,png,bmp,doc,docx,pdf,txt");
 // ]]>
 </script>

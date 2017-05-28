@@ -17,7 +17,9 @@
         <div class="header-logo container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-8">
-                    <img class="header-logo-img" src="/images/heatwell_logo.svg" alt="Heatwell Ltd.">
+                    <a href="/">
+                        <img class="header-logo-img" src="/images/heatwell_logo.svg" alt="Heatwell Ltd.">
+                    </a>
                     <div class="header-title">
                         <div class="header-logo-title">Heatwell LTD.</div>
                         <span class="header-logo-tagline">Under floor construction specialists</span>
@@ -35,7 +37,7 @@
                     <div id="cssmenu">
                         <ul>
                             <li>
-                                <a href="/" target="_blank"><i class="icon-home"></i> Home</a>
+                                <a href="/"><i class="icon-home"></i> Home</a>
                             </li>
                             <li>
                                 <a href="/diy/do-it-yourself.php"><i class="icon-wrench"></i> Installation &amp; DIY Info</a>

@@ -13,42 +13,27 @@
 
 <?php include("header.php"); ?>
 
-<article>
-  <section>
-    
-    <div class="content-column unify">
-      <h1>Thanks for getting in touch</h1>
-      <p>We will do our best to get back in touch with you as soon as possible.</p>
-      <p>Please feel free to call us at anytime.</p>
+<article class="content">
+  <section class="container-fluid">
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <h1>Thanks for getting in touch</h1>
+        <p>We will do our best to get back in touch with you as soon as possible.</p>
+        <p>Please feel free to call us at anytime.</p>
+      </div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout">
+          <h3>Heatwell Ltd.</h3>
+          <?php include("contactcard-partial.php"); ?>
+          <h3>Company Information</h3>
+          <p><a href="/about-heatwell.php">Find out more about Heatwell</a></p>
+        </div>
+      </aside>
     </div>
-    
-    <aside>
-      <h3>Heatwell Ltd.</h3>
-      <p>PO Box 41 072,</br>
-      St Lukes,</br>
-      Auckland 1346
-      </br>New Zealand</p>
-      <h4>Ph: <span class="dark">(09) 849 3919</span><br>Fx: <span class="dark">64 9 849 3621</span></br>Mo: <span class="dark">021 926 533</span></h4>
-      <img style="margin-top:10px;" src="images/QR.gif" width="120" height="120" alt="Heatwell Contacst QR Code"><br>
-      <p>Scan this QR code with your phone to save our contact details as an meCard.</p> 
-      <h4>Company Information</h4>
-       <p>Find out more about Heatwell:</p>
-       <div class="button-margin"><a class="button" href="about-heatwell.php">About Heatwell</a></div>
-    </aside>
-    <div class="clear-both"></div>
   </section>
 </article>
 
 <?php include("footer.php"); ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/doubletaptogo.js"></script><script>
-
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
-
-</script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+.Callout {
+    padding: 1rem;
+    background-color: $color-body-xlight;
+
+    @media only screen and (min-width: 48em) {
+        padding: 1.5rem;
+    }
+
+    &--dark {
+        background-color: $color-primary-light;
+
+        h1, h2, h3, p {
+            color: $color-body-xxlight;
+        }
+    }
+}

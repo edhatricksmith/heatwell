@@ -8,27 +8,22 @@
 
 <?php include("header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column unify">
-      <h1>404 error!</h1>
-      <p>That probably means that either the link you just used is broken or you've entered the page URL incorrectly.</p>
-      <p>If it's the latter, check you've entered the URL correctly in the address bar and then refresh the page.</p>
-      <p>If it's the former then probably we need to sort it out :P I'd love <a class="text-link" href="mailto:heating@ihug.co.nz">an email</a> with the details of the problem so I can fix it.</p>
-      <p>Otherwise, why don't you head back to our <a class="text-link" href="http://www.heatwell.co.nz/">Home page</a> and start afresh</p>
-
+<article class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <h1>404 error!</h1>
+        <p>That probably means that either the link you just used is broken or you've entered the page URL incorrectly.</p>
+        <p>If it's the latter, check you've entered the URL correctly in the address bar and then refresh the page.</p>
+        <p>If it's the former then probably we need to sort it out :P I'd love <a class="text-link" href="mailto:heating@ihug.co.nz">an email</a> with the details of the problem so I can fix it.</p>
+        <p>Otherwise, why don't you head back to our <a class="text-link" href="http://heatwell.co.nz/">Home page</a> and start afresh</p>
+      </div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout">
+          <?php include("contactcard.php"); ?>
+        </div>
+      </aside>
     </div>
-
-    <aside>
-      <h3>Heatwell Ltd.</h3>
-      <p>PO Box 41 072,</br>
-      St Lukes,</br>
-      Auckland 1346
-      </br>New Zealand</p>
-      <h4>Fx: <span class="dark">64 9 849 3621</span></br>Mo: <span class="dark">021 926 533</span></h4>
-    </aside>
-    <div class="clear-both"></div>
   </section>
 </article>
 

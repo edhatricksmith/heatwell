@@ -8,26 +8,25 @@
 
 <?php include("../header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column unify">
-      <h1>In-Concrete Heating</h1>
-      <img class="responsive shadow photo-right photo300" src="../images/in-concrete_photo_02.jpg" alt="carpet heating example">
-      <p>Heatwell In-concrete heating is great for new homes or new concrete slab overlays. It is a radiant form of electric heating that is continuously run via thermostat control during the cooler months to keep the concrete slab warm creating a cosy environment.</p>
-      <p>Heatwell uses a heavy duty electrical heating cable which is tied to the reinforcing mesh on top of a polystyrene insulation layer before the concrete slab is poured. Using an installation wattage of between 100 – 160 watts per m² utilising an automatic programmable thermostat.</p>
-      <div class="clear-both"></div>
-    </div>
-    <aside>
-      <div class="guarantee-container">
-        <h3 class="guarantee-title">10 Year Guarantee</h3>
-        <p class="guarantee-copy">We provide a 10 year gurantee on all of our products and services - excluding thermostat(s)</p>
+<article class="content">
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>In-Concrete Heating</h1>
       </div>
-      <div class="line-break"></div>
-      <p>If you would like to learn more about any of our products or services, or to request a free quote feel free to get in touch with us here:</p>
-      <div class="button-margin"><a class="button" href="/contacts.php">Contact Us</a></div>
-    </aside>
-    <div class="clear-both"></div>
+    </div>
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8 section-sm">
+        <img class="contentImg contentImg-right" src="/images/in-concrete_photo_02.jpg" alt="carpet heating example">
+        <p>Heatwell In-concrete heating is great for new homes or new concrete slab overlays. It is a radiant form of electric heating that is continuously run via thermostat control during the cooler months to keep the concrete slab warm creating a cosy environment.</p>
+        <p>Heatwell uses a heavy duty electrical heating cable which is tied to the reinforcing mesh on top of a polystyrene insulation layer before the concrete slab is poured. Using an installation wattage of between 100 – 160 watts per m² utilising an automatic programmable thermostat.</p>
+      </div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout Callout--dark">
+          <?php include("../guarantee-partial.php"); ?>
+        </div>
+      </aside>
+    </div>
   </section>
 </article>
 

@@ -1,0 +1,11 @@
+.Testimonial {
+    display: block;
+
+    &::before {
+        display: block;
+        margin-bottom: -40px;
+        font-size: 80px;
+        color: $color-body-dark-1;
+        content: "\0022";
+    }
+}
