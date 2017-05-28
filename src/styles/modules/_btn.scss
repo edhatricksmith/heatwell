@@ -1,30 +1,26 @@
 .btn {
   display: inline-block;
-  background: $color-secondary-xlight;
+  background: $color-secondary-dark;
   padding: 12px 22px;
   border-radius: 3px;
-  border: 1px solid $color-secondary-light;
   font-size: $font-size-sm;
   font-weight: $font-weight-bold;
-
-  color: $color-secondary;
+  color: $color-body-xxlight;
   text-decoration: none;
   transition: background-color .15s ease, color .15s ease, border-color .15s ease;
 
   &:hover {
-    background: $color-secondary;
-    border: 1px solid $color-secondary;
+    background: $color-secondary-xdark;
     color: $color-body-xxlight;
   }
 
   &--secondary {
-    background: $color-body-dark-1;
-    border: 1px solid $color-body-dark-6;
-    color: $color-body-dark-6;
+    background: $color-body-xlight;
+    color: $color-body-dark-9;
 
     &:hover {
-      background-color: $color-body-dark-6;
-      border: 1px solid $color-body-dark-6;
+      background-color: $color-body-dark-1;
+      color: $color-body-dark-9;
     }
   }
 }
