@@ -6,7 +6,7 @@ url('https://fonts.googleapis.com/css?family=Ubuntu:500|Source+Sans+Pro:400,700'
 // Legacy
 @import
 'legacy/reset',
-'legacy/primary-styles';
+'legacy/header';
 
 // Libraries
 @import
@@ -25,9 +25,14 @@ url('https://fonts.googleapis.com/css?family=Ubuntu:500|Source+Sans+Pro:400,700'
 'modules/Form',
 'modules/Navigation',
 'modules/Testimonial',
-'modules/Footer';
+'modules/Footer',
+'modules/Video';
 
 // Layout
 @import
 'layout/global-layout',
 'layout/about';
+
+// States
+@import
+'states/states';

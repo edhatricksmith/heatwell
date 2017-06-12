@@ -56,3 +56,21 @@ strong {
 small {
   font-size: $font-size-sm;
 }
+
+ul {
+  list-style: initial;
+}
+
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 1rem;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+li {
+  margin-bottom: .5rem;
+  line-height: 1.5em;
+}

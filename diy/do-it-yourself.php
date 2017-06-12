@@ -19,7 +19,7 @@
     <div class="row section">
       <div class="col-xs-12 col-sm-8 section-sm">
         <p>Heatwell Ltd have designed the Under tile heating to be quick and easy to install and are happy to provide all DIY'ers the information on how to install our products. Please find links to our documentation on the right side of this page. The information in those documents covers the following sections:</p>
-        <div class="section-sm">
+        <div class="section">
           <h3>DIY Installation Manual</h3>
           <ol>
             <li>Floor Preparation</li>

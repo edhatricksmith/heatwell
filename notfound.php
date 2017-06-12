@@ -20,7 +20,7 @@
       </div>
       <aside class="col-xs-12 col-sm-4">
         <div class="Callout">
-          <?php include("contactcard.php"); ?>
+          <?php include("contactcard-partial.php"); ?>
         </div>
       </aside>
     </div>

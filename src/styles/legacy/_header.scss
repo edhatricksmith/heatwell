@@ -1,0 +1,88 @@
+/* Header */
+.header {
+  position: relative;
+  padding-top: 18px;
+  background-color: $color-primary-light;
+
+  @media only screen and (max-width: 48em) {
+    text-align: center;
+  }
+
+  &-title {
+    display: inline-block;
+    vertical-align: middle;
+
+    @media only screen and (max-width: 48em) {
+      display: block;
+    }
+  }
+
+  &-logo {
+    margin-bottom: 18px;
+
+    @media only screen and (max-width: 48em) {
+      margin-bottom: 0;
+      padding-bottom: 1.5rem;
+    }
+
+    &-img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      height: 70px;
+      margin-right: 30px;
+      margin-bottom: .5rem;
+
+      @media only screen and (min-width: 768px) {
+        height: 110px;
+        margin-bottom: 0;
+      }
+    }
+
+    &-title {
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: $font-weight-bold;
+      color: $color-body-xxlight;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 54px;
+      }
+    }
+
+    &-tagline {
+      font-size: 16px;
+      color: $color-primary-xlight;
+
+      @media only screen and (min-width: 768px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-contact {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: $font-weight-bold;
+    color: $color-primary-xlight;
+
+    @media only screen and (min-width: 768px) {
+      text-align: right;
+      font-size: 38px;
+    }
+  }
+
+  &-alt {
+    display: block;
+    font-size: 16px;
+    font-weight: $font-weight;
+    color: $color-primary-xlight;
+  }
+
+  &-nav {
+    background-color: $color-body-dark-6;
+  }
+}

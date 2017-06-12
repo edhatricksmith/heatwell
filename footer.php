@@ -12,11 +12,4 @@
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
-<script type="text/javascript">
-  $("#cssmenu").menumaker({
-    title: "Menu",
-    breakpoint: 768,
-    format: "multitoggle"
-  });
-</script>
+<script src="/js/main.min.js"></script>

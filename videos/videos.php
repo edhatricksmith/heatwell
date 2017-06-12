@@ -9,63 +9,56 @@
 
 <?php include("../header.php"); ?>
 
-<article>
-  <section>
-
-    <div class="content-column unify">
-
-      <h1>Heatwell Instruction Videos</h1>
-
-      <h3><a name="th232"></a>Heatwell Thermostat Aube TH232</h3>
-      <p>Programming instructions for the Aube TH232 thermostat provided by Heatwell Ltd</p>
-      <div class="video-container">
-        <iframe width="853" height="480" src="//www.youtube.com/embed/y5aYj896_Ok?rel=0" frameborder="0" allowfullscreen></iframe>
+<article class="content">
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+          <h1>Heatwell Instruction Videos</h1>
       </div>
-
-      <div class="line-break"></div>
-
-      <h3><a name="rde100"></a>Heatwell Thermostat Programming Video for Siemens RDE100</h3>
-      <p>Learn how to program the Siemens RDE100 thermostat.</p>
-      <div class="video-container">
-        <iframe width="853" height="640" src="//www.youtube.com/embed/Z7NSZaTW90A" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div class="line-break"></div>
-
-      <h3><a name="touch"></a>Heatwell Thermostat TR8100V programming instructions.</h3>
-      <p>Learn how to program the TR8100V touch thermostat thermostat.</p>
-      <div class="video-container">
-        <iframe width="853" height="480" src="//www.youtube.com/embed/YL5krQITBp4" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div class="line-break"></div>
-
-      <h3>Heatwell Underfloor Heating Installation Video</h3>
-      <p>Learn how to install our under floor heating products yourself:</p>
-      <div class="video-container">
-        <iframe width="853" height="480" src="http://www.youtube.com/embed/RM0ebg3-Yig" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div class="line-break"></div>
-
-      <h3><a name="rde20"></a>Heatwell Thermostat Programming Video for Siemens RDE20</h3>
-      <p>Learn how to program your Siemens thermostat with our with our step by step video guide:</p>
-      <div class="video-container">
-        <iframe width="853" height="480" src="http://www.youtube.com/embed/_Y394CBozEo" frameborder="0" allowfullscreen></iframe>
-      </div>
-
     </div>
-
-    <aside>
-      <div class="guarantee-container">
-        <h3 class="guarantee-title">10 Year Guarantee</h3>
-        <p class="guarantee-copy">We provide a 10 year gurantee on all of our products and services - excluding thermostat(s)</p>
+    <div class="row section">
+      <div class="col-xs-12 col-sm-8">
+        <div class="section">
+          <h3><a name="th232"></a>Heatwell Thermostat Aube TH232</h3>
+          <p>Programming instructions for the Aube TH232 thermostat provided by Heatwell Ltd</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//y5aYj896_Ok' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3><a name="rde100"></a>Heatwell Thermostat Programming Video for Siemens RDE100</h3>
+          <p>Learn how to program the Siemens RDE100 thermostat.</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//Z7NSZaTW90A' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3><a name="touch"></a>Heatwell Thermostat TR8100V programming instructions.</h3>
+          <p>Learn how to program the TR8100V touch thermostat thermostat.</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//YL5krQITBp4' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Heatwell Underfloor Heating Installation Video</h3>
+          <p>Learn how to install our under floor heating products yourself:</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//RM0ebg3-Yig' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3><a name="rde20"></a>Heatwell Thermostat Programming Video for Siemens RDE20</h3>
+          <p>Learn how to program your Siemens thermostat with our with our step by step video guide:</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//_Y394CBozEo' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
-      <div class="line-break"></div>
-      <p>If you would like to learn more about any of our products or services, or to request a free quote feel free to get in touch with us here:</p>
-      <div class="button-margin"><a class="button" href="/contacts.php">Contact Us</a></div>
-    </aside>
-    <div class="clear-both"></div>
+      <aside class="col-xs-12 col-sm-4">
+        <div class="Callout Callout--dark">
+          <?php include("../guarantee-partial.php"); ?>
+        </div>
+      </aside>
   </section>
 </article>
 
