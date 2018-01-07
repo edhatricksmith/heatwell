@@ -53,6 +53,20 @@
             <iframe src='https://www.youtube.com/embed//_Y394CBozEo' frameborder='0' allowfullscreen></iframe>
           </div>
         </div>
+        <div class="section">
+          <h3><a name="ht2"></a>HT2 Touch Screen Thermostat</h3>
+          <p>Programming instructions for the TH2 touch screen thermostat provided by Heatwell Ltd</p>
+          <div class="Video">
+            <iframe src="https://www.youtube.com/embed/PnH2_2e8-4A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3><a name="hnbtx928h"></a>HNB TX 928H Touch Screen Thermostat</h3>
+          <p>Programming instructions for the HNB TX 928H thermostat provided by Heatwell Ltd</p>
+          <div class="Video">
+            <iframe src="https://www.youtube.com/embed/gtjzveJivro" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></iframe>
+          </div>
+        </div>
       </div>
       <aside class="col-xs-12 col-sm-4">
         <div class="Callout Callout--dark">

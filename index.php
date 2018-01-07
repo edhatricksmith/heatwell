@@ -12,8 +12,8 @@
   <div class="container-fluid">
     <div class="row section">
       <div class="col-xs-12 col-sm-5 section">
-        <h1>Heatwell Ltd. Auckland - Under floor heating specialists</h1>
-        <p>We over 40 years experience in design, supply and installation of under floor heating systems. We service most thermostats and floor heating systems.</p>
+        <h1>Heatwell Ltd – Auckland based – Underfloor heating specialists</h1>
+        <p>We have over 40 years experience in design, supply and installation of under floor heating systems. We service most thermostats and floor heating systems.</p>
         <a class="btn" href="services/services.php">Arrange for a Service now</a>
       </div>
       <div class="col-xs-12 col-sm-7">
