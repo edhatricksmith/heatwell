@@ -21,15 +21,15 @@
         <p>We offer many popular types of thermostats to suit all heating needs. We are not limited to just these four types and we will supply any other popular models if required.</p>
         <section class="section">
           <h3>HT2 Touch Screen Automatic Thermostat</h3>
-          <img class="mediaspacer" src="../images/thermostat_manual_raa31.jpg" alt="Manual Thermostat">
-          <!-- <ul>
-            <li>User Friendly</li>
-            <li>Quick and easy installation</li>
-            <li>Stylish design</li>
-            <li>Air sensing</li>
+          <!-- <img class="mediaspacer" src="../images/thermostat_manual_raa31.jpg" alt="Manual Thermostat"> -->
+          <ul>
+            <li>Large touch screen</li>
+            <li>Simple programming</li>
+            <li>5+2/7 days schedules</li>
+            <li>User-friendly menu</li>
+            <li>Vertical / horizontal models</li>
           </ul>
-          <p>Our basic unit is an Air Sensing manual thermostat. Setting the desired temperature on the control dial operates this thermostat. This thermostat will run continuously until turned off. Manual thermostats can be used with any of our heating systems.</p> -->
-          <a class="btn btn--secondary" href="RAA31_Datasheet_en.pdf">View RAA31 Datasheet</a>
+          <a class="btn btn--secondary" href="HT2-OPERATING-INSTRUCTIONS.pdf">View HT2 Operating Instructions</a>
         </section>
         <section class="section">
           <h3>Siemens RDE100 Automatic Thermostat</h3>
@@ -50,15 +50,10 @@
         </section>
         <section class="section">
           <h3>Aube TH232 Automatic Thermostat</h3>
-          <img class="mediaspacer" src="../images/thermostat_manual_raa31.jpg" alt="Manual Thermostat">
-          <!-- <ul>
-            <li>User Friendly</li>
-            <li>Quick and easy installation</li>
-            <li>Stylish design</li>
-            <li>Air sensing</li>
-          </ul>
-          <p>Our basic unit is an Air Sensing manual thermostat. Setting the desired temperature on the control dial operates this thermostat. This thermostat will run continuously until turned off. Manual thermostats can be used with any of our heating systems.</p> -->
-          <a class="btn btn--secondary" href="RAA31_Datasheet_en.pdf">View RAA31 Datasheet</a>
+          <img class="mediaspacer" src="../images/aube_th232.jpg" alt="Aube TH232 Automatic Thermostat">
+          <div>
+            <a class="btn btn--secondary" href="/videos/videos.php#th232">Watch the TH232 Instruction Video</a>
+          </div>
         </section>
         <section class="section">
           <h3>Siemens RAA31 Manual Thermostat</h3>
