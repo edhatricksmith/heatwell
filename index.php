@@ -12,7 +12,13 @@
   <div class="container-fluid">
     <div class="row section">
       <div class="col-xs-12 col-sm-5 section">
-        <h1>Heatwell Ltd – Auckland based – Underfloor heating specialists</h1>
+        <h1>Heatwell Ltd</h1>
+        <ul>
+          <li><strong>Auckland Based Company</strong></li>
+          <li><strong>Underfloor Heating Specialist</strong></li>
+          <li><strong>We Install all our heating Products</strong></li>
+          <li><strong>Suppliers of Elements and Thermostats</strong></li>
+        </ul>
         <p>We have over 40 years experience in design, supply and installation of under floor heating systems. We service most thermostats and floor heating systems.</p>
         <a class="btn" href="services/services.php">Arrange for a Service now</a>
       </div>

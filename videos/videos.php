@@ -19,10 +19,10 @@
     <div class="row section">
       <div class="col-xs-12 col-sm-8">
         <div class="section">
-          <h3><a name="th232"></a>Heatwell Thermostat Aube TH232</h3>
-          <p>Programming instructions for the Aube TH232 thermostat provided by Heatwell Ltd</p>
+          <h3><a name="ht2"></a>HT2 Touch Screen Thermostat</h3>
+          <p>Programming instructions for the TH2 touch screen thermostat provided by Heatwell Ltd</p>
           <div class="Video">
-            <iframe src='https://www.youtube.com/embed//y5aYj896_Ok' frameborder='0' allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/PnH2_2e8-4A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
         <div class="section">
@@ -33,17 +33,24 @@
           </div>
         </div>
         <div class="section">
+          <h3><a name="th232"></a>Heatwell Thermostat Aube TH232</h3>
+          <p>Programming instructions for the Aube TH232 thermostat provided by Heatwell Ltd</p>
+          <div class="Video">
+            <iframe src='https://www.youtube.com/embed//y5aYj896_Ok' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="section">
+          <h3><a name="hnbtx928h"></a>HNB TX 928H Touch Screen Thermostat</h3>
+          <p>Programming instructions for the HNB TX 928H thermostat provided by Heatwell Ltd</p>
+          <div class="Video">
+            <iframe src="https://www.youtube.com/embed/gtjzveJivro" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></iframe>
+          </div>
+        </div>
+        <div class="section">
           <h3><a name="touch"></a>Heatwell Thermostat TR8100V programming instructions.</h3>
           <p>Learn how to program the TR8100V touch thermostat thermostat.</p>
           <div class="Video">
             <iframe src='https://www.youtube.com/embed//YL5krQITBp4' frameborder='0' allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="section">
-          <h3>Heatwell Underfloor Heating Installation Video</h3>
-          <p>Learn how to install our under floor heating products yourself:</p>
-          <div class="Video">
-            <iframe src='https://www.youtube.com/embed//RM0ebg3-Yig' frameborder='0' allowfullscreen></iframe>
           </div>
         </div>
         <div class="section">
@@ -54,17 +61,10 @@
           </div>
         </div>
         <div class="section">
-          <h3><a name="ht2"></a>HT2 Touch Screen Thermostat</h3>
-          <p>Programming instructions for the TH2 touch screen thermostat provided by Heatwell Ltd</p>
+          <h3>Heatwell Underfloor Heating Installation Video</h3>
+          <p>Learn how to install our under floor heating products yourself:</p>
           <div class="Video">
-            <iframe src="https://www.youtube.com/embed/PnH2_2e8-4A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="section">
-          <h3><a name="hnbtx928h"></a>HNB TX 928H Touch Screen Thermostat</h3>
-          <p>Programming instructions for the HNB TX 928H thermostat provided by Heatwell Ltd</p>
-          <div class="Video">
-            <iframe src="https://www.youtube.com/embed/gtjzveJivro" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></iframe>
+            <iframe src='https://www.youtube.com/embed//RM0ebg3-Yig' frameborder='0' allowfullscreen></iframe>
           </div>
         </div>
       </div>
