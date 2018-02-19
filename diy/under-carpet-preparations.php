@@ -18,7 +18,7 @@
     <div class="row section">
       <div class="col-xs-12 col-sm-8">
         <div class="section-sm">
-          <p>Under carpet heating can be laid either once the carpet and underlay have been brought up in an existing home or before the carpet laying in a new development. We are happy to liaise with the carpet layers so our schedules can meet to cut down on any time delays. Heatwell under carpet heating is covered with a thin layer of self-leveling screed requiring over night to dry. There are a few preparation procedures to take note regarding floor preparation and pre-wiring.</p>
+          <p>Under carpet heating can be laid in either new or existing homes or buildings. Under carpet heating is embedded in a self-levelling cement based screed which provides a finish with strength and durability requiring overnight to dry. We are happy to liaise with the carpet layer so there is no time delays. There are a few preparation procedures to take note regarding floor preparation and pre-wiring. Please read on:</p>
         </div>
         <div class="section-sm">
           <h2>Work required to be done by other trades for Under Carpet Heating:</h2>

@@ -78,6 +78,9 @@
             <li>7-day, 4 time periods per day. Early Start function - 24-hour clock / °C or °F</li>
             <li>Blue backlight display</li>
           </ul>
+          <div class="mediaspacer">
+            <a class="btn btn--secondary" href="HNP-Touch-Screen-TX-928-H-HNB-20A.pdf">View HNB TX 928H Operating Instructions</a>
+          </div>
           <a class="btn btn--secondary" href="/videos/videos.php#hnbtx928h">Watch the HNB TX 928H Instruction Video</a>
         </section>
         <section class="section">
@@ -108,7 +111,7 @@
           <div class="mediaspacer">
             <a class="btn btn--secondary" href="/diy/RDE_Instructions.pdf">View RDE20 Instruction Manual</a>
           </div>
-          <a class="btn btn--secondary" href="/videos/videos.php#red20">Watch the RDE20 Instruction Video</a>
+          <a class="btn btn--secondary" href="/videos/videos.php#rde20">Watch the RDE20 Instruction Video</a>
         </section>
       </div>
       <aside class="col-xs-12 col-sm-4">

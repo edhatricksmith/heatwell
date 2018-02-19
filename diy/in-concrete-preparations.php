@@ -18,7 +18,8 @@
     <div class="row section">
       <div class="col-xs-12 col-sm-8">
         <div class="section-sm">
-          <p>In-concrete heating is laid at a very early stage of your building process. The installation of at least 25mm polystyrene insulation and reinforcing mesh will need to be installed before the commencement of the element laying. Heatwell will need to be in contact with the builder to make sure the concrete pourer's and element laying are scheduled in appropriately. The builder will need to ensure all permanent fixtures and plumbing fittings are marked out before the laying of in-concrete heating. See the instructions on our specific In concrete preparation page for more details.</p>
+          <p>In-concrete heating is laid at the end of the floor slab preparation process. A layer of at least 25mm polystyrene insulation is to be laid on top of the moisture barrier before the reinforcing mesh is placed down. Reinforcing mesh has to be installed before the commencement of the element laying.</p>
+          <p>Heatwell will need to liaise with the builder to ensure all permanent fixtures and plumbing fittings are marked out on the moisture barrier before the laying of in-concrete heating elements. See the instructions on our specific In concrete preparation page for more details.</p>
         </div>
         <div class="section-sm">
           <h2>Work required to be done by other trades for In-Concrete Heating:</h2>

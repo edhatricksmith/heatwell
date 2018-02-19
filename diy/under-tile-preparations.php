@@ -18,8 +18,8 @@
     <div class="row section">
       <div class="col-xs-12 col-sm-8">
         <div class="section-sm">
-          <p>Under tile heating is a quick and easy application. Most installations have the first stage completed within a day. There are a few preparation procedures that need to be in place to ensure a smooth application of our product. Under tile heating is laid closer to the end of your building process just before tiling. For example in bathrooms the under tile heating is installed once the floor preparations, jibing, waterproofing, pre-wire and fixtures and fittings are installed or marked out(for kitchens we prefer the cabinetry to be in place).</p>
-          <p>The pre-wire(draw wire) will need to be in place before the first part of the installation and the circuit wiring will need to be in place before the final fit of the thermostat(s). See the instructions on our specific Under Tile preparation page for more details.</p>
+          <p>Under tile heating is a quick and easy installation. Most applications are completed within a day. There are a few preparation procedures that need to be put in place to ensure a smooth application of our product. Under tile heating is laid towards the end of your building project just before tiling. For example in bathrooms the under tile heating is installed once the floor preparations, gibing, gib-stopping, pre-wire and fixtures and fittings are installed or marked out (for kitchens we prefer the cabinetry to be in place). Please note that waterproofing should be applied after our installation. If you are going to use an epoxy resin based waterproofing system please contact us first.</p>
+          <p>The pre-wire (including draw wire) will need to be in place before the installation can commence. We will complete the thermostat fit off once the tiling a walls are finished. See the instructions on our specific Under Tile Heating preparation page for more details.</p>
         </div>
         <div class="section-sm">
           <h2>Work required to be done by other trades for Under Tile Heating:</h2>
