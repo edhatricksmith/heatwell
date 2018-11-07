@@ -10,7 +10,23 @@ var gulp = require('gulp'),
   cssvariables = require('postcss-css-variables'),
   colorRgbaFallback = require("postcss-color-rgba-fallback"),
   opacity = require("postcss-opacity"),
+  concat = require('gulp-concat'),
+  rename = require('gulp-rename'),
+  uglify = require('gulp-uglify'),
   pump = require('pump');
+
+
+var jsFiles = 'src/scripts/**/*.js',
+    jsDest = 'js/';
+
+gulp.task('scripts', function() {
+  return gulp.src(jsFiles)
+    .pipe(concat('jsmain.js'))
+    .pipe(gulp.dest(jsDest))
+    .pipe(rename('jsmain.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest(jsDest));
+});
 
 gulp.task('sass', function(){
   return gulp.src('src/styles/**/*.+(scss|sass)')
@@ -50,6 +66,6 @@ gulp.task('connect-sync', function() {
   });
 });
 
-gulp.task('default', ['connect-sync', 'postcss'], function(){
+gulp.task('default', ['connect-sync', 'postcss', 'scripts'], function(){
   gulp.watch('src/styles/**/*.+(scss|sass)', ['postcss']);
 })
