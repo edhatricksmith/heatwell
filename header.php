@@ -10,6 +10,18 @@ ga('send', 'pageview');
 </script>
 <link type="text/css" rel="stylesheet" href="/css/styles.css" />
 <link rel="shortcut icon" href="/favicon.ico">
+
+<script type="application/ld+json">
+{ "@context": "http://schema.org",
+  "@type": "Service",
+  "name": "Heatwell",
+  "aggregateRating":
+    {"@type": "AggregateRating",
+     "ratingValue": "4.6",
+     "reviewCount": "52"
+    }
+}
+</script>
 </head>
 <body>
     <header class="header">
@@ -58,6 +70,7 @@ ga('send', 'pageview');
                                     <li><a href="/diy/under-tile-preparations.php">Under Tile prep.</a></li>
                                     <li><a href="/diy/under-carpet-preparations.php">Under Carpet prep.</a></li>
                                     <li><a href="/diy/in-concrete-preparations.php">In-Concrete prep.</a></li>
+                                    <li><a href="http://www.heatwell.co.nz/heating-options/floor-heating-options.php">Under Floor Heating</a></li>              
                                 </ul>
                             </li>
                             <li>
