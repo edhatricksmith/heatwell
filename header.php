@@ -56,6 +56,7 @@ ga('send', 'pageview');
                                     <li><a href="/heating-options/under-tile-heating.php">Under Tile Heating</a></li>
                                     <li><a href="/heating-options/under-carpet-heating.php">Under Carpet Heating</a></li>
                                     <li><a href="/heating-options/in-concrete-heating.php">In-concrete Heating</a></li>
+                                    <li><a href="/heating-options/floor-heating-options.php">Under Floor Heating</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -70,7 +71,6 @@ ga('send', 'pageview');
                                     <li><a href="/diy/under-tile-preparations.php">Under Tile prep.</a></li>
                                     <li><a href="/diy/under-carpet-preparations.php">Under Carpet prep.</a></li>
                                     <li><a href="/diy/in-concrete-preparations.php">In-Concrete prep.</a></li>
-                                    <li><a href="http://www.heatwell.co.nz/heating-options/floor-heating-options.php">Under Floor Heating</a></li>              
                                 </ul>
                             </li>
                             <li>
