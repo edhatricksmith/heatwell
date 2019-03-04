@@ -17,7 +17,7 @@
     </div>
     <div class="row section">
       <div class="col-xs-12 col-sm-8">
-        <p><strong>Heatwell Ltd is a leading under floor heating specialist with over 30 years experience in the supply and install of Radiant under tile, under carpet and in-concrete electric heating.</strong></p>
+        <p><strong>Heatwell Ltd is a leading under floor heating specialist with over 40 years experience in the supply and install of Radiant under tile, under carpet and in-concrete electric heating.</strong></p>
         <p>Heatwell is an Auckland based company that provides premium Under floor Heating at a competitive price. Offering a friendly and honest service using our extensive knowledge of design, supply &amp; installation of under floor heating for both residential and commercial situations.</p>
         <h3>Radiant Heating – How It Works</h3>
         <p>Radiant heat is based on the same method of the sun heating the earth. Radiant heat energy travels similar to radio waves. When this energy hits a solid object it absorbs the energy and heats that object. This provides a natural form of heat that will not cause a stuffy atmosphere.</p>

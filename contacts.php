@@ -57,24 +57,25 @@ if(isset($_POST['submitted']))
             <input type='text'  class='spmhidip' name='<?php echo $formproc->GetSpamTrapInputName(); ?>' />
             <small>* required fields</small>
             <div class='Form-errorsummary error'><?php echo $formproc->GetErrorMessage(); ?></div>
-            <label for='name' >Your Full Name:* </label>
-            <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" />
+            <label for='name'>Your Full Name:* </label>
+            <input type='text' name='name' id='name' value='<?php echo $formproc->SafeDisplay('name') ?>' maxlength="50" required />
             <span id='contactus_name_errorloc' class='error'></span>
             <label for='email' >Email Address:*</label>
-            <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" />
+            <input type='text' name='email' id='email' value='<?php echo $formproc->SafeDisplay('email') ?>' maxlength="50" required />
             <span id='contactus_email_errorloc' class='error'></span>
             <label for='phone' >Phone:</label>
             <input type='text' name='phone' id='phone' value='<?php echo $formproc->SafeDisplay('phone') ?>' maxlength="50" />
             <span id='contactus_email_errorloc' class='error'></span>
-            <label for='message' >Message:</label>
+            <label for='message' >Message:*</label>
             <span id='contactus_message_errorloc' class='error'></span>
-            <textarea rows="10"  name='message' id='message'><?php echo $formproc->SafeDisplay('message') ?></textarea>
+            <textarea rows="10"  name='message' id='message' required><?php echo $formproc->SafeDisplay('message') ?></textarea>
             <label for='photo' >Upload your floor plan:</label>
             <input type="file" name='plan' id='plan' />
             <span id='contactus_photo_errorloc' class='error'></span>
-            <div>
-              <input class="btn" type='submit' name='Submit' value='Send message' />
+            <div class="section-sm">
+              <div class="g-recaptcha" data-sitekey="6LcyNpUUAAAAAJW7Don6y3UkIpvtOINnOH4IZNad"></div>
             </div>
+            <input class="btn" type='submit' name='Submit' value='Send message' />
           </fieldset>
         </form>
       </div>
@@ -91,17 +92,5 @@ if(isset($_POST['submitted']))
 
 <?php include("footer.php"); ?>
 
-<script type='text/javascript'>
-// <![CDATA[
-    var frmvalidator  = new Validator("contactus");
-    frmvalidator.EnableOnPageErrorDisplay();
-    frmvalidator.EnableMsgsTogether();
-    frmvalidator.addValidation("name","req","Please provide your name");
-    frmvalidator.addValidation("email","req","Please provide your email address");
-    frmvalidator.addValidation("email","email","Please provide a valid email address");
-    frmvalidator.addValidation("message","maxlen=2048","The message is too long!(more than 2KB!)");
-    frmvalidator.addValidation("plan","file_extn=jpg;jpeg;gif;png;bmp;doc;docx;pdf;txt","Upload supported formats only. Supported file types are: jpg,gif,png,bmp,doc,docx,pdf,txt");
-// ]]>
-</script>
 </body>
 </html>
